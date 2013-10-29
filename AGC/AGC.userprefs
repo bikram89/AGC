@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Emovement.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/guiscript.js">
     <Files>
-      <File FileName="Assets\Scripts\Emovement.js" Line="13" Column="1" />
+      <File FileName="Assets/Scripts/guiscript.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
