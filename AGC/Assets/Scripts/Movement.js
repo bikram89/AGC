@@ -177,6 +177,20 @@ function Update ()
    }
    
    shield = rigidbody.position;
+   
+   if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Moved)
+   {
+   	if(Input.GetTouch(0).deltaPosition.x > 20){
+   Debug.Log("swiped right");
+   var right1 : Vector3 = Vector3 (-40, 0, 0);
+   rigidbody.MovePosition(rigidbody.position + right1 * Time.deltaTime);
+   		}
+   	if(Input.GetTouch(0).deltaPosition.x < -20){
+   Debug.Log("swiped left");
+   var left1 : Vector3 = Vector3 (40, 0, 0);
+   rigidbody.MovePosition(rigidbody.position + left1 * Time.deltaTime);
+   		}	
+   }
 
 }
 
