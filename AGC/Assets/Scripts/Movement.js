@@ -149,15 +149,24 @@ function Update ()
   if(Input.GetKeyDown(KeyCode.RightArrow))
    {
    // Debug.Log("right arrow pressed ?");
+    /*if(rigidbody.position.x >= 0){
      var right : Vector3 = Vector3 (-40, 0, 0);
-     rigidbody.MovePosition(rigidbody.position + right * Time.deltaTime);
+     rigidbody.MovePosition(rigidbody.position + right * Time.deltaTime);}*/
+     
+      if(rigidbody.position.x == 0){
+     rigidbody.transform.position.x = -0.66;}
+     
+        if(rigidbody.position.x > 0){
+     rigidbody.transform.position.x = 0;}
+     
    }
 
   if(Input.GetKeyDown(KeyCode.LeftArrow))
    {
     //Debug.Log("left arrow pressed ?");
+    if(rigidbody.position.x <= 0.2){
      var left : Vector3 = Vector3 (40, 0, 0);
-     rigidbody.MovePosition(rigidbody.position + left * Time.deltaTime);
+     rigidbody.MovePosition(rigidbody.position + left * Time.deltaTime);}
    }
 
   if(Input.GetKeyDown(KeyCode.UpArrow))
@@ -182,13 +191,23 @@ function Update ()
    {
    	if(Input.GetTouch(0).deltaPosition.x > 20){
    Debug.Log("swiped right");
+  /* if(rigidbody.position.x >= 0){
    var right1 : Vector3 = Vector3 (-40, 0, 0);
-   rigidbody.MovePosition(rigidbody.position + right1 * Time.deltaTime);
-   		}
+   rigidbody.MovePosition(rigidbody.position + right1 * Time.deltaTime);}*/
+   
+   if(rigidbody.position.x == 0){
+     rigidbody.transform.position.x = -0.66;}
+     
+   if(rigidbody.position.x > 0){
+     rigidbody.transform.position.x = 0;}
+   }
+   
+   
    	if(Input.GetTouch(0).deltaPosition.x < -20){
    Debug.Log("swiped left");
+     if(rigidbody.position.x <= 0.2){
    var left1 : Vector3 = Vector3 (40, 0, 0);
-   rigidbody.MovePosition(rigidbody.position + left1 * Time.deltaTime);
+   rigidbody.MovePosition(rigidbody.position + left1 * Time.deltaTime);}
    		}	
    }
 
