@@ -12,6 +12,11 @@ function Start () {
            Debug.Log("Shielded Fk Yeah...");
 		   Destroy (trigger.gameObject);
 		 }      
+    if (trigger.gameObject.CompareTag ("obstacle2")) 
+         {
+           Debug.Log("Shielded Fk Yeah...");
+		   Destroy (trigger.gameObject);
+		 }  
 
 }
 

@@ -1,6 +1,6 @@
 
 
-public static var eSpeed = 0.1;
+public static var eSpeed = 0.15;
 public static var oldeSpeed = eSpeed;
 
 function Start () {
