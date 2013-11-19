@@ -4,6 +4,8 @@ function OnGUI()
 {
 if(GUI.Button(Rect(10,20,50,15), "Back  ")){
 Application.LoadLevel("Homescreen");
+Movement.score=0;
+Movement.moveSpeed = 0.15;
 }
 
 

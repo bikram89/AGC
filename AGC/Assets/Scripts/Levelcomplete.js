@@ -61,7 +61,6 @@ if(Stats.level==10){GUI.Label(Rect(175,180,150,30), "Highscore " +PlayerPrefs.Ge
 
 if(GUI.Button(Rect(175,220,125,30), "Next Level")){
 Movement.score =0 ;
-Movement.moveSpeed = 0.15;
 if(Stats.level==1){Application.LoadLevel("Level2");}
 if(Stats.level==2){Application.LoadLevel("Level3");}
 if(Stats.level==3){Application.LoadLevel("Level4");}
@@ -76,7 +75,6 @@ if(Stats.level==10){Application.LoadLevel("Campaign");}
 
 if(GUI.Button(Rect(175,270,125,30), "Retry")){
 Movement.score=0;
-Movement.moveSpeed = 0.15;
 if(Stats.level==1){Application.LoadLevel("Level1");}
 if(Stats.level==2){Application.LoadLevel("Level2");}
 if(Stats.level==3){Application.LoadLevel("Level3");}

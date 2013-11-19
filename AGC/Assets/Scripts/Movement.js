@@ -4,7 +4,7 @@
 	public static var upTimer : float;
 	var shieldpf : GameObject;
 	public static var shield : Vector3;
-	public static var cam : Vector3;
+	public static var cam = 24.4;
 	public static var up = 0;
 	public static var score : float;
 	public static var startposition : Vector2;
@@ -81,7 +81,7 @@
 	   }
 	   
 	   shield = rigidbody.position;
-	   cam = rigidbody.position;
+	   cam = rigidbody.position.z;
 	   
 //	   if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Moved)
 //	   {

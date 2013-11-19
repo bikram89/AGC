@@ -4,7 +4,6 @@ GUI.Box(Rect(150,175,175,200), "Failed");
 
 if(GUI.Button(Rect(175,220,125,30), "Retry")){
 Movement.score =0 ;
-Movement.moveSpeed = 0.15;
 if(Stats.level==1){Application.LoadLevel("Level1");}
 if(Stats.level==2){Application.LoadLevel("Level2");}
 if(Stats.level==3){Application.LoadLevel("Level3");}

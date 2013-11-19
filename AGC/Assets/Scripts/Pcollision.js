@@ -93,6 +93,10 @@ function Start () {
 	           Debug.Log("finished..Loading Next Level");
 	           Movement.moveSpeed = 0.15 ;
 	           health = 3;
+	           Pcollision.boostTimer = 0;
+	           stopTimer =  0;
+	           xTimer = 0;
+	           
 			   Application.LoadLevel("LevelComplete");
 			   
 			   
@@ -109,7 +113,8 @@ function Start () {
 	           }
 	 
 	 		   if(boostTimer <= 0){
-			   Movement.moveSpeed = Movement.oldmoveSpeed;
+	 		   Movement.moveSpeed = 0.15 ;
+			  // Movement.moveSpeed = Movement.oldmoveSpeed;
 	           // Debug.Log("normal speed restored");
 	              }
 	              
@@ -142,8 +147,12 @@ function Start () {
               {
                Destroy (gameObject);
                Movement.moveSpeed = 0;
-               Movement.oldmoveSpeed = 0;
                Application.LoadLevel("Gameover");
+               Movement.moveSpeed = 0.15 ;
+	           health = 3;
+	           Pcollision.boostTimer = 0;
+	           stopTimer =  0;
+	           xTimer = 0;
               }      
 	           
 }
