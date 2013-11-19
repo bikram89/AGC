@@ -1,0 +1,569 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   AGC/AGC-csharp.sln
+#	modified:   AGC/AGC.sln
+#	modified:   AGC/AGC.userprefs
+#	modified:   AGC/Assembly-CSharp-firstpass-vs.csproj
+#	modified:   AGC/Assembly-CSharp-firstpass.csproj
+#	modified:   AGC/Assembly-CSharp-firstpass.pidb
+#	modified:   AGC/Assembly-UnityScript-firstpass-vs.unityproj
+#	modified:   AGC/Assembly-UnityScript-firstpass.pidb
+#	modified:   AGC/Assembly-UnityScript-firstpass.unityproj
+#	modified:   AGC/Assembly-UnityScript-vs.unityproj
+#	modified:   AGC/Assembly-UnityScript.pidb
+#	modified:   AGC/Assembly-UnityScript.unityproj
+#	modified:   AGC/Assets/21.prefab
+#	modified:   AGC/Assets/22.prefab
+#	modified:   AGC/Assets/2X.prefab
+#	modified:   AGC/Assets/Levels/testlevel.unity
+#	modified:   AGC/Assets/Levels/testlevel2.unity
+#	modified:   AGC/Assets/Scripts/Cmovement.js
+#	modified:   AGC/Assets/Scripts/Gameover.js
+#	modified:   AGC/Assets/Scripts/Levelcomplete.js
+#	modified:   AGC/Assets/Scripts/Movement.js
+#	modified:   AGC/Assets/Scripts/Pcollision.js
+#	modified:   AGC/Assets/Scripts/gamescreengui.js
+#	modified:   AGC/Assets/Shield.prefab
+#	modified:   AGC/Assets/Stop.prefab
+#	modified:   AGC/Assets/Track.prefab
+#	modified:   AGC/Library/AssetImportState
+#	modified:   AGC/Library/AssetServerCacheV3
+#	modified:   AGC/Library/EditorUserBuildSettings.asset
+#	modified:   AGC/Library/InspectorExpandedItems.asset
+#	modified:   AGC/Library/ProjectSettings.asset
+#	modified:   AGC/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+#	modified:   AGC/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+#	modified:   AGC/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+#	modified:   AGC/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll.mdb
+#	modified:   AGC/Library/ScriptAssemblies/Assembly-UnityScript.dll
+#	modified:   AGC/Library/ScriptAssemblies/Assembly-UnityScript.dll.mdb
+#	modified:   AGC/Library/ScriptMapper
+#	modified:   AGC/Library/assetDatabase3
+#	modified:   AGC/Library/expandedItems
+#	modified:   AGC/Library/guidmapper
+#	modified:   AGC/Library/metadata/00/00000000000000002000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000003000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000004000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000004100000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000005000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000006000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000006100000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000007000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000008000000000000000
+#	modified:   AGC/Library/metadata/00/00000000000000009000000000000000
+#	modified:   AGC/Library/metadata/00/0000000000000000a000000000000000
+#	modified:   AGC/Library/metadata/00/0000000000000000b000000000000000
+#	modified:   AGC/Library/metadata/00/0000000000000000c000000000000000
+#	modified:   AGC/Library/metadata/00/0038dcce7993aa245a2e30998c723f6f
+#	modified:   AGC/Library/metadata/00/006a5f739d1105f6a000538a2aef8c59
+#	modified:   AGC/Library/metadata/00/00d7e64775d1332438c4996b372b953f
+#	modified:   AGC/Library/metadata/01/01049279b64ae427f91486bbcea77beb
+#	modified:   AGC/Library/metadata/01/01b622d4830754f4886f4b03606fb1ec
+#	modified:   AGC/Library/metadata/02/0215cddee2d284e9c9bda1dbe42f829c
+#	modified:   AGC/Library/metadata/02/028c11450244e4feabe6828fc2ec3e03
+#	modified:   AGC/Library/metadata/04/047330f39d11745ad0004adb8d76c639
+#	modified:   AGC/Library/metadata/05/054a31a99d11e49d110086ba44295342
+#	modified:   AGC/Library/metadata/05/054be44bec922ad4dbea626a45edb961
+#	modified:   AGC/Library/metadata/05/0568ecdd797316641b0203860b3929d9
+#	modified:   AGC/Library/metadata/05/05f6c978afe090d4d8f0af42a61bbe7f
+#	modified:   AGC/Library/metadata/06/062d7594f4f61ef48b1eebdc20b458f6
+#	modified:   AGC/Library/metadata/06/06893cec523208643a91b7a393737700
+#	modified:   AGC/Library/metadata/06/06a50e4d86be7427bb1fd9b9b63d0d8f
+#	modified:   AGC/Library/metadata/07/073946e94d57ac04fb345d5c28d21992
+#	modified:   AGC/Library/metadata/08/086544326e5604e81a96f61fb0f0a78e
+#	modified:   AGC/Library/metadata/08/08f28e42a647e2a4cbd32e793359aa3c
+#	modified:   AGC/Library/metadata/09/0904e339eb6fdd546b8539bd04db10ed
+#	modified:   AGC/Library/metadata/09/09ebe82dbd1113c3d000dc0b8d76c639
+#	modified:   AGC/Library/metadata/0a/0a4b0bce1e250a14bb534d70bce205fa
+#	modified:   AGC/Library/metadata/0a/0a70c16c7b47ab048bc9e03b588c24f6
+#	modified:   AGC/Library/metadata/0a/0ab79d7f243824f5d9826bd83522c8df
+#	modified:   AGC/Library/metadata/0b/0b167d00b3108411a8a963cba5ddde1b
+#	modified:   AGC/Library/metadata/0b/0bbc5af06f9103740b10dadea69f2991
+#	modified:   AGC/Library/metadata/0d/0d2f50a8e0bb841a5aaa90ae55db8849
+#	modified:   AGC/Library/metadata/0e/0e7ed4fbd9924480bbb918e339c570e6
+#	modified:   AGC/Library/metadata/0e/0eb0a732ad112a541100162a44295342
+#	modified:   AGC/Library/metadata/0f/0f6377872e339455d9912675771556d1
+#	modified:   AGC/Library/metadata/0f/0fb10c595af974ea6ba0313a749d5c55
+#	modified:   AGC/Library/metadata/10/103612e5e1ff43a4e896c567a2cb3ae1
+#	modified:   AGC/Library/metadata/11/1167c0a28d11119930004d8a4241aa39
+#	modified:   AGC/Library/metadata/11/116dbe87a918349ca9afbc969a75ca67
+#	modified:   AGC/Library/metadata/11/11a7f65ed8edb9345acc9107ce7d415f
+#	modified:   AGC/Library/metadata/12/12747bdca86d344c2a4f1ea2bb362f17
+#	modified:   AGC/Library/metadata/14/1454da46ff6d14423a3e7ecb96bf9028
+#	modified:   AGC/Library/metadata/14/146e88434c254804fac8e91c90527aa6
+#	modified:   AGC/Library/metadata/14/14eb2e36916c5a342a6f1911dbe2672f
+#	modified:   AGC/Library/metadata/15/150836791e167764796dc2a606880489
+#	modified:   AGC/Library/metadata/16/16522f49031ff414abdf1f83f1b6a36c
+#	modified:   AGC/Library/metadata/16/16dd8248d31591f4fbea40ca5d506411
+#	modified:   AGC/Library/metadata/17/17da6d53ec93a0444bd0f751b1d02477
+#	modified:   AGC/Library/metadata/18/18214e9d6af6248559d501391856f1c7
+#	modified:   AGC/Library/metadata/19/1936953540671453daa32bee58124b0c
+#	modified:   AGC/Library/metadata/19/195c271a9118d224c8562ae67cf47a66
+#	modified:   AGC/Library/metadata/19/199ba61b407d7435aa1a5551f0844272
+#	modified:   AGC/Library/metadata/1a/1a5d8cd24a805cd44b00c7f1e1e4d287
+#	modified:   AGC/Library/metadata/1d/1d5ac211a643e447ca78c2d794a16381
+#	modified:   AGC/Library/metadata/1d/1da31b5f0cf126543b66c7d9d24a574c
+#	modified:   AGC/Library/metadata/1e/1e13526e3f55c49469138d89ec382f77
+#	modified:   AGC/Library/metadata/1f/1fdce4427d10e48a0a07774903b01f73
+#	modified:   AGC/Library/metadata/21/215977489d11178d11005b9844295342
+#	modified:   AGC/Library/metadata/22/2207c3da8b3e73e42a4d0bcafd551377
+#	modified:   AGC/Library/metadata/23/231d99496203d444896b018452ec2168
+#	modified:   AGC/Library/metadata/23/2372dd1814cb4ed47a91f8174877623e
+#	modified:   AGC/Library/metadata/23/23a02ac18d11c9ffa0009c58a8ad6659
+#	modified:   AGC/Library/metadata/25/2549285cbe86dc04f919f0fdcf2b1f86
+#	modified:   AGC/Library/metadata/26/26d8bdbc8646bde48b05fbaacaaa6577
+#	modified:   AGC/Library/metadata/26/26ebd1f47951f4434892c20bcd5e3861
+#	modified:   AGC/Library/metadata/27/27acebc9ad1110f6d00074c88d76c639
+#	modified:   AGC/Library/metadata/2a/2a49aa5b76842305fc65897abcdcf30f
+#	modified:   AGC/Library/metadata/2b/2b21364bb71d4eb4dbce6894c82cd119
+#	modified:   AGC/Library/metadata/2b/2b781df7e9602134f9b1dbcccf641040
+#	modified:   AGC/Library/metadata/2c/2c29c08dd1c0b6749b7cd0fcff7a29fd
+#	modified:   AGC/Library/metadata/2c/2c528fec5d95e4ac28cf46399b887662
+#	modified:   AGC/Library/metadata/2c/2c93b54a9ce1c314b809b4c11cf9cdb6
+#	modified:   AGC/Library/metadata/30/30abebfd9bf1c49d8a2d26e61e66bc15
+#	modified:   AGC/Library/metadata/31/31179a6bbd11e2c3d000dc0b8d76c639
+#	modified:   AGC/Library/metadata/31/3186f38ca67e7441e8299da2e169f9f9
+#	modified:   AGC/Library/metadata/31/31d09d955d37fe94f9f8cafd8dd1c315
+#	modified:   AGC/Library/metadata/31/31f6763de0920574092c8a69a66c717e
+#	modified:   AGC/Library/metadata/32/327835a878f496675e402fdba3e0a4bc
+#	modified:   AGC/Library/metadata/32/32af2910a0a35b24485d74e2bb56761a
+#	modified:   AGC/Library/metadata/32/32ef381921b3f7f479831b042c113762
+#	modified:   AGC/Library/metadata/33/339363bdf714d614d804330cbe270b4b
+#	modified:   AGC/Library/metadata/34/34b437af8addcca49bca95bd57e79216
+#	modified:   AGC/Library/metadata/34/34c9fcec00ce63b49a6725d4eadead19
+#	modified:   AGC/Library/metadata/35/352e5f82d7105ad408904c5f552b5fe7
+#	modified:   AGC/Library/metadata/36/36b2f8f8d28ece642b2d2533129236bb
+#	modified:   AGC/Library/metadata/37/3789d6540f350bd4ab4536207e720a4d
+#	modified:   AGC/Library/metadata/39/3954501323f24464f9e4418c78d8e8ce
+#	modified:   AGC/Library/metadata/39/39750518d378f4748a49e8fe7dfdbfef
+#	modified:   AGC/Library/metadata/39/39a8706a9bd02c64783c071fb7438ecf
+#	modified:   AGC/Library/metadata/3a/3a484f43208fe9e47892f8757139dcb9
+#	modified:   AGC/Library/metadata/3b/3bbfe469026fb4423a1201e4e13609e8
+#	modified:   AGC/Library/metadata/3d/3ddb50e323b793449ad89bd605735e35
+#	modified:   AGC/Library/metadata/3e/3e692b884f861894383b7c7895f18d0e
+#	modified:   AGC/Library/metadata/3f/3f1b096ec639b1f41991fcdb861f5ff5
+#	modified:   AGC/Library/metadata/3f/3fbc34d51ee4155dc17d8f49133f44ad
+#	modified:   AGC/Library/metadata/40/400c2f66c145548b6a08e6ac69655ea2
+#	modified:   AGC/Library/metadata/40/40a24badbe24a844b9afa978c7043211
+#	modified:   AGC/Library/metadata/42/427ff48b098658742bdcce953d607e78
+#	modified:   AGC/Library/metadata/43/431bf70fc1f14ba468db415b73339c68
+#	modified:   AGC/Library/metadata/44/440eb36db91ca410f800ff3cfe43572f
+#	modified:   AGC/Library/metadata/44/449b48f7eb5d87a4baaa5fb73f875a59
+#	modified:   AGC/Library/metadata/45/454585cca07f953479b902a00ead3015
+#	modified:   AGC/Library/metadata/48/48ada193ccf7da14ead65e52ae16a4c7
+#	modified:   AGC/Library/metadata/48/48dca5b99d113b8d11006bab44295342
+#	modified:   AGC/Library/metadata/4a/4a056241e2722dc46a7262a8e7073fd9
+#	modified:   AGC/Library/metadata/4c/4c85abd0a4d974473b97e81d10a3a6bc
+#	modified:   AGC/Library/metadata/4d/4d069eec578bfe945b11d8b1577b34ef
+#	modified:   AGC/Library/metadata/4d/4dd4bd8edcd3afe498ad294b92c3685f
+#	modified:   AGC/Library/metadata/4e/4eb73708914564698b03178372f5b8ba
+#	modified:   AGC/Library/metadata/4e/4efe5620a91cf9542993ee04a027a7f5
+#	modified:   AGC/Library/metadata/51/512bb6c79a6d7a84c8d9be1e582abb35
+#	modified:   AGC/Library/metadata/51/517a230447c0af548a7679cdf69c3e56
+#	modified:   AGC/Library/metadata/51/51dc82ef9d11c594d000e7c9e39e7c39
+#	modified:   AGC/Library/metadata/52/52a1cf6eec0cc4f64bd6dfc9a3e8fe14
+#	modified:   AGC/Library/metadata/52/52b7d70b1de7c4ce09662b77c14d9fda
+#	modified:   AGC/Library/metadata/53/5317f3e76581f4165b16ede5caa5f14b
+#	modified:   AGC/Library/metadata/53/531c14f8d5cdc4e5baa83ee6e16f783a
+#	modified:   AGC/Library/metadata/53/53412155bc1016547b1a77b2333c0380
+#	modified:   AGC/Library/metadata/54/5410a64fad11e8d6d00011d98d76c639
+#	modified:   AGC/Library/metadata/54/54e03e659ab274dd9b12c0538a9c4983
+#	modified:   AGC/Library/metadata/54/54fbbf098d116effa00081aba8ad6659
+#	modified:   AGC/Library/metadata/55/55500041a04a9314b8a6b6bacdb9ba2e
+#	modified:   AGC/Library/metadata/55/55ba17c1f6f2e974299de8fbd2e1b528
+#	modified:   AGC/Library/metadata/56/565954460dac57e48b086b53f5980a7e
+#	modified:   AGC/Library/metadata/56/56b5ef6a5c3d597449f679d2a30528e2
+#	modified:   AGC/Library/metadata/58/5861c55756febc148902667397405ff9
+#	modified:   AGC/Library/metadata/59/591ae67f4dc79ca4c9309f684166bb10
+#	modified:   AGC/Library/metadata/59/5992e309e8b76c144ae5aa07a6f29c4c
+#	modified:   AGC/Library/metadata/5a/5a09dad89d11389ed000e82b8d76c639
+#	modified:   AGC/Library/metadata/5a/5a6690b09736ddc48a49051ca236fbed
+#	modified:   AGC/Library/metadata/5a/5aab239cac7fe8a4c931693a7535da5c
+#	modified:   AGC/Library/metadata/5a/5ad708245136f8c4db201b5005f46aab
+#	deleted:    AGC/Library/metadata/5b/5b9651e32322e4628ba75aa2778d3cb8
+#	modified:   AGC/Library/metadata/5b/5ba172cd3918d7c44aa6d04446119a00
+#	modified:   AGC/Library/metadata/5b/5baab583450424889aad7f3f40e9fba5
+#	modified:   AGC/Library/metadata/5c/5c54115eb5a2a4c4fb1b11b8e6100bd8
+#	modified:   AGC/Library/metadata/5d/5d07662c895d32148bc40d0cd1b6fcb3
+#	modified:   AGC/Library/metadata/5d/5d69df9d9d11e49d110086ba44295342
+#	modified:   AGC/Library/metadata/5d/5dbdf7dfcf86afa418926ee28fab2b1d
+#	modified:   AGC/Library/metadata/5f/5f75ef29233ec634facc1ba1e1f64725
+#	modified:   AGC/Library/metadata/5f/5ff6f23064ba6684abfabb02416ce310
+#	modified:   AGC/Library/metadata/60/60bca8f58a0b8478e946e6e86658cb29
+#	modified:   AGC/Library/metadata/60/60fb16895cbaf4946906b6d63f3653ec
+#	modified:   AGC/Library/metadata/62/62f7c8a57ece2204695f3c7dc963d23c
+#	modified:   AGC/Library/metadata/64/641bb2dce818a8a499b537a1963889ac
+#	modified:   AGC/Library/metadata/64/642367443312c224bb40c297365867ac
+#	modified:   AGC/Library/metadata/65/6507e46b33de878488614225b6bff619
+#	modified:   AGC/Library/metadata/65/65836931803ab5b4fb9f60bd418f4100
+#	modified:   AGC/Library/metadata/65/659cda0362460d7459124285421de95b
+#	modified:   AGC/Library/metadata/65/65fb74f285bbb4d11a3b64d99c0a53b0
+#	modified:   AGC/Library/metadata/66/661663e7fa00ae64fa29cf54677bbef4
+#	modified:   AGC/Library/metadata/66/66c8d8b89e1ed4a37bece5045a6aa889
+#	modified:   AGC/Library/metadata/66/66e0989f9d113e2d110016e844295342
+#	modified:   AGC/Library/metadata/66/66ebe4da1ef67e64e8aeccb820e409d6
+#	modified:   AGC/Library/metadata/67/671ed8486ef241944b05e3f405fe2c0f
+#	modified:   AGC/Library/metadata/67/6793afeb1ba524134ae93ee3038763e0
+#	modified:   AGC/Library/metadata/67/67db31eead11e8d6d00011d98d76c639
+#	modified:   AGC/Library/metadata/67/67de91b5513a4d8489588fb65de75caa
+#	modified:   AGC/Library/metadata/68/6812dd656d02bcc43930392d96b273d8
+#	modified:   AGC/Library/metadata/68/68287fe10cd30434b9c21ff1c55f613f
+#	modified:   AGC/Library/metadata/68/68ec2fe99d1108b9d0006a298d76c639
+#	modified:   AGC/Library/metadata/69/69578c2f0cbecd54e8a920831f09ef84
+#	modified:   AGC/Library/metadata/69/69680b688d11eb9d30009b3b4241aa39
+#	modified:   AGC/Library/metadata/69/697128f5e5e21b04090964c3124c9731
+#	modified:   AGC/Library/metadata/69/69bbf53eea62b4163842473235ed92a2
+#	modified:   AGC/Library/metadata/6d/6d4fd495600cd4cf0b8ad2caf025f94e
+#	modified:   AGC/Library/metadata/6d/6dda5f499bc82c442aab32e4a6bdbe40
+#	modified:   AGC/Library/metadata/6d/6dfed35faf4306d4183d2346253aef64
+#	modified:   AGC/Library/metadata/6e/6e77d387966489d6cb6bb6ba39e09c45
+#	modified:   AGC/Library/metadata/6e/6eef515e7c40d3244ad62dcdf6e8096a
+#	modified:   AGC/Library/metadata/71/71daf8bd67623fd4a94f915a4d061142
+#	modified:   AGC/Library/metadata/73/73b473491223046b3bccb04fdb29c994
+#	modified:   AGC/Library/metadata/74/741cfa51a2f6d4d959a5464ee822a141
+#	modified:   AGC/Library/metadata/74/74bcba72c2286ce429281c86d5928418
+#	modified:   AGC/Library/metadata/74/74f4a47fc3b034e2d963491f4e514174
+#	modified:   AGC/Library/metadata/75/752b01b0aec6184468996505d2ab8a9c
+#	modified:   AGC/Library/metadata/77/779f088d06e1dd34cb94e47165cac838
+#	modified:   AGC/Library/metadata/78/78c0a732ad112a541100162a44295342
+#	modified:   AGC/Library/metadata/78/78e12d71d5af24a4c960d6f683ccee13
+#	modified:   AGC/Library/metadata/79/79ee47d0d7d8347459a63ae804788244
+#	modified:   AGC/Library/metadata/7a/7a3134e5f9749c449ad2289cfe93f5d5
+#	modified:   AGC/Library/metadata/7a/7aa31388ff40d994bb11f1da8928e2db
+#	modified:   AGC/Library/metadata/7c/7c98ffa948c8d43d5ac42a3e9f0ea897
+#	modified:   AGC/Library/metadata/7d/7dca5dff796eb47908302d505dcb19b0
+#	modified:   AGC/Library/metadata/7e/7e3669cf306c78f48a1f9affe08eb0f9
+#	modified:   AGC/Library/metadata/82/820a38890d8f1f742b289b29927ffb3b
+#	modified:   AGC/Library/metadata/83/830b18403dea84783b74345dea9f0606
+#	modified:   AGC/Library/metadata/84/8403d3349d112ba4d000be1be39e7c39
+#	modified:   AGC/Library/metadata/84/844d00add1faeae4999a441a5283c021
+#	modified:   AGC/Library/metadata/84/84b9e1d19d11078d11005b9844295342
+#	modified:   AGC/Library/metadata/86/8639c51f3dbb24cc8a7f94732f73859d
+#	modified:   AGC/Library/metadata/86/86f2a5c7ab68c4c7db89c2bde7e26dcc
+#	modified:   AGC/Library/metadata/87/87e98f563747ec04e8cd93b3fc3b1a29
+#	modified:   AGC/Library/metadata/88/885b1972ad11a921d000d37b8d76c639
+#	modified:   AGC/Library/metadata/89/8947ae06ca3df4fcc9786140c1d86f15
+#	modified:   AGC/Library/metadata/8a/8a4debc9ad1110f6d00074c88d76c639
+#	modified:   AGC/Library/metadata/8a/8a98ef45bc7df804d95fd945abd2c943
+#	modified:   AGC/Library/metadata/8b/8b23c9e3952e246c180a8080104ae60b
+#	modified:   AGC/Library/metadata/8b/8b8ba88cbd11e2c3d000dc0b8d76c639
+#	modified:   AGC/Library/metadata/8c/8c192604f119843a58ce7bd439efd4f5
+#	modified:   AGC/Library/metadata/8c/8ca0735e520b5fc40a4e41b42fc288ea
+#	modified:   AGC/Library/metadata/8c/8caa437b19957a045866b84c6218a0db
+#	modified:   AGC/Library/metadata/8d/8d7bbb86db1af8d44853b55d57624cb1
+#	modified:   AGC/Library/metadata/8e/8e303788a4e296443b33942a5be85049
+#	modified:   AGC/Library/metadata/8e/8e3ff3e27ca4bc54dda56e89e0550dfa
+#	modified:   AGC/Library/metadata/90/902873f1336b14507b2ae690b68ecc51
+#	modified:   AGC/Library/metadata/90/908a1c8ecd118f12a000e6888f962b59
+#	modified:   AGC/Library/metadata/91/91c222ac5463b7243849bc078d53e72c
+#	modified:   AGC/Library/metadata/91/91c87a294f7986e4d84c33aa10cb4261
+#	modified:   AGC/Library/metadata/93/93074eff559734934be9005d139a9ad5
+#	modified:   AGC/Library/metadata/93/931987be26c9646429c56f8a4692bb81
+#	modified:   AGC/Library/metadata/93/93bc7d6f0e1793c47a5f88178ecc75fe
+#	modified:   AGC/Library/metadata/94/9485b0c79d11e2e4d0007da98d76c639
+#	modified:   AGC/Library/metadata/95/956c1c0113bcd4c4388a3c239be09820
+#	modified:   AGC/Library/metadata/97/9732e64c49e904ff2a10fc7794607fcf
+#	modified:   AGC/Library/metadata/97/9785a5533d9270849a276a4bfbfa9418
+#	modified:   AGC/Library/metadata/97/97b050d43ac7c4d2b9f6cbb587650761
+#	modified:   AGC/Library/metadata/98/985e70e58a6b14e4ca5ab5b10519069b
+#	modified:   AGC/Library/metadata/98/98c330f39d11745ad0004adb8d76c639
+#	modified:   AGC/Library/metadata/99/994e233f00960d642bdc28bf94e3a067
+#	modified:   AGC/Library/metadata/99/99e86ee0ad11f8d6d00011d98d76c639
+#	modified:   AGC/Library/metadata/9a/9abe0941a9bf44931956d406439d7aca
+#	modified:   AGC/Library/metadata/9b/9ba05f538ee36044da5cd2a4f14a8b18
+#	modified:   AGC/Library/metadata/9b/9bdb18c49d114cb4300035184241aa39
+#	modified:   AGC/Library/metadata/9c/9c13ebdf81409074cb8d8e8335acdc69
+#	modified:   AGC/Library/metadata/9c/9c7f793f82a4f7bda3662a9a2f23142e
+#	modified:   AGC/Library/metadata/9c/9ce107479d11178d11005b9844295342
+#	modified:   AGC/Library/metadata/9c/9ced84780855df44ba8b1df02bd8304b
+#	modified:   AGC/Library/metadata/9d/9d2a2ce9c718dc24dae3b1ee427b27ee
+#	modified:   AGC/Library/metadata/9d/9dccc8e8f0da4494991c26ef59019551
+#	modified:   AGC/Library/metadata/9e/9ef26a39a400bec44a36b85fd38a2d65
+#	modified:   AGC/Library/metadata/9f/9f697635e81532e4f846923a9f2fcf2e
+#	modified:   AGC/Library/metadata/a0/a069effe31719324fa0736f019aa6716
+#	modified:   AGC/Library/metadata/a1/a108808c29b40ab42b933d6318791558
+#	modified:   AGC/Library/metadata/a1/a148a280bf01445438591871ff821d1c
+#	modified:   AGC/Library/metadata/a2/a2126534b3a11b34e977105bd9e3cc03
+#	modified:   AGC/Library/metadata/a3/a3384ef3e2313034f9016ad8a1f3999f
+#	modified:   AGC/Library/metadata/a5/a51e29524d0a242e99bcf94b8a3265ab
+#	modified:   AGC/Library/metadata/a5/a53cf5449d11a15d1100a04b44295342
+#	modified:   AGC/Library/metadata/a5/a53ef176e4166304880646f085a834d3
+#	modified:   AGC/Library/metadata/a6/a6536cf0bac416645b2ca47fc12740b3
+#	modified:   AGC/Library/metadata/a6/a68f088f66c184b84875b37578bae418
+#	modified:   AGC/Library/metadata/a6/a6c23ad66d37f0e4c8c86d7c5293ac7c
+#	modified:   AGC/Library/metadata/a6/a6dbb96b9d112024d000e929e39e7c39
+#	modified:   AGC/Library/metadata/a6/a6de6086ecd5fe84699b0bc7e00608a4
+#	modified:   AGC/Library/metadata/a8/a867a1028420f4269a5e1913d5a281ed
+#	modified:   AGC/Library/metadata/a9/a9cdb98423c19412bbac43b1fb623c48
+#	deleted:    AGC/Library/metadata/aa/aadd99b5f57c2486b98d31bcbb5c640e
+#	modified:   AGC/Library/metadata/aa/aade9dca1a872d4449d51904653fc1b6
+#	modified:   AGC/Library/metadata/ab/ab5bb3eb247a4492fa9900f6ac0db050
+#	modified:   AGC/Library/metadata/ab/ab70c098a52a04be88096d20e1540cb8
+#	modified:   AGC/Library/metadata/ac/ac56a5cf2102746809f706431073ccee
+#	modified:   AGC/Library/metadata/ac/ac96f5c0b697340a887ac2bd77a0bddc
+#	modified:   AGC/Library/metadata/ac/acd22cefe09441d2c7e801193b935495
+#	modified:   AGC/Library/metadata/ad/ad3355e7635c144a791839f7170de071
+#	modified:   AGC/Library/metadata/ad/ad4d1b5eaba0c0349957139cecb96e94
+#	modified:   AGC/Library/metadata/ad/ad90f586d4fe1b942b46f0da520a0e61
+#	modified:   AGC/Library/metadata/ae/ae5c529611fbdac4d90a29614abb85c0
+#	modified:   AGC/Library/metadata/ae/ae87fe833d7664e83a80974a8870690d
+#	modified:   AGC/Library/metadata/ae/aecdab3033c620c43a3695cc7a5296bb
+#	modified:   AGC/Library/metadata/af/af040a092e2114e9fbd6fab7402e066d
+#	modified:   AGC/Library/metadata/af/af4465c7aa1400a6573c907831d716c9
+#	modified:   AGC/Library/metadata/af/af5f1b2c3720b2f429e24b98339f5c0f
+#	modified:   AGC/Library/metadata/af/afdd36140df153844aebbe811e828408
+#	modified:   AGC/Library/metadata/b1/b1f5b286d416d2f4a874177ac95bae78
+#	modified:   AGC/Library/metadata/b2/b2100cf14c49c5e47bb2044c25659bcc
+#	modified:   AGC/Library/metadata/b2/b25d02d5454ac4210abfe815eb4dbe40
+#	modified:   AGC/Library/metadata/b4/b4e599ed06e25c64a92b41d38720d0a1
+#	modified:   AGC/Library/metadata/b5/b5b093b84105b9444a9a35b51fdc5913
+#	modified:   AGC/Library/metadata/b8/b8cf65c6c5e4a4d88b7a16e847002999
+#	modified:   AGC/Library/metadata/b9/b995d4bd9d11078d11005b9844295342
+#	modified:   AGC/Library/metadata/b9/b9a268fc98c474f721ff8c9bf8f5160e
+#	modified:   AGC/Library/metadata/b9/b9dc46b7ca721b04fb38a42e7545ffc7
+#	modified:   AGC/Library/metadata/bb/bb393e804ad0e204cb1fcfbc9b8b0409
+#	modified:   AGC/Library/metadata/bb/bbba6214b1838a64ebc939ac9a08726d
+#	modified:   AGC/Library/metadata/bc/bc4db711df3cce8458c84b53f94a8486
+#	modified:   AGC/Library/metadata/bc/bc909e8e75e9e47b495b8655f87a7922
+#	modified:   AGC/Library/metadata/bc/bcccd26489905034f99f18da67fa5f3b
+#	modified:   AGC/Library/metadata/be/be7c377d128f1ff46a22853ecdb9e6d1
+#	modified:   AGC/Library/metadata/be/beb99187248fd654babdea2120fdc6f7
+#	modified:   AGC/Library/metadata/bf/bf507b4be80a1d34181335bcd98d6eec
+#	modified:   AGC/Library/metadata/bf/bfd675cc0db1d4656b75dc6d6ba91142
+#	modified:   AGC/Library/metadata/c0/c0bc6ddcbdd31e04d9029ee4002a1637
+#	modified:   AGC/Library/metadata/c1/c1259bb9bcb6e481ba03f5d0337633d5
+#	modified:   AGC/Library/metadata/c1/c1580ced0420bc742932512c0194df27
+#	modified:   AGC/Library/metadata/c2/c2ef94ff9d11915d1100a04b44295342
+#	modified:   AGC/Library/metadata/c4/c419698c0038a6e40868e7a0da6198dd
+#	modified:   AGC/Library/metadata/c4/c44eba192b477ec4c85b8d704d5ef60e
+#	modified:   AGC/Library/metadata/c4/c494c890ec8664fd9aa7d66ebfa1a7e6
+#	modified:   AGC/Library/metadata/c5/c55afdc4a8a3b4890b07cc7d176510bb
+#	modified:   AGC/Library/metadata/c6/c6c59e4fc3bb5b448b518e51f3f04b45
+#	modified:   AGC/Library/metadata/c6/c6e0767b1f8c34890ac245217f4b9731
+#	modified:   AGC/Library/metadata/c7/c76b3032d5d1c9e47a4f64134730c565
+#	modified:   AGC/Library/metadata/c7/c7823349d54534cd1b3078b6bf95c848
+#	modified:   AGC/Library/metadata/c7/c78b114ae617a4914a6f9b9e0f796a0b
+#	modified:   AGC/Library/metadata/c8/c83ddef6675f649e8ba048d976753858
+#	modified:   AGC/Library/metadata/c8/c8634e062924929664361c08745211fb
+#	modified:   AGC/Library/metadata/c9/c9a0577d5aa002449aa20fa8338c100f
+#	modified:   AGC/Library/metadata/c9/c9bb6800fa131004792944982124f698
+#	modified:   AGC/Library/metadata/c9/c9e6294c9d11cb8d11006bf944295342
+#	modified:   AGC/Library/metadata/ca/ca05f73af9788864fac4cc72d2ad19a2
+#	modified:   AGC/Library/metadata/ca/ca49380a71a2bb64c830d06bd421b9d1
+#	deleted:    AGC/Library/metadata/ca/caa1ec025a7c049ec8f67b889fb33a6d
+#	modified:   AGC/Library/metadata/ca/cae09c86ad1122e5d0006ac98d76c639
+#	modified:   AGC/Library/metadata/cb/cb1deda9a5ffe44f28e011f5937746ed
+#	modified:   AGC/Library/metadata/cc/cc2e0695659497144afe5a45ed3227ea
+#	modified:   AGC/Library/metadata/cc/cc62831e4cd99ee498b6af2b8b9edd7f
+#	modified:   AGC/Library/metadata/cc/cc90a732ad112a541100162a44295342
+#	modified:   AGC/Library/metadata/cc/ccebc34925b500f47a2423f7bc1ace00
+#	modified:   AGC/Library/metadata/cd/cdf7d3f1ad11f8d6d00011d98d76c639
+#	modified:   AGC/Library/metadata/ce/ce8d79c79d11b8f9d00076e98d76c639
+#	modified:   AGC/Library/metadata/d2/d236c2e07976ff942a0e23d979e8f4cb
+#	modified:   AGC/Library/metadata/d2/d29f814ffc7a24e09b664b355cf09ca9
+#	modified:   AGC/Library/metadata/d3/d3b7d84ffb95cc04aaeb74f19a10f034
+#	modified:   AGC/Library/metadata/d4/d487fbc00225bab4d8bf95ccc750f0ce
+#	modified:   AGC/Library/metadata/d4/d4d16ca3d56fb7142a32d49bbd323836
+#	modified:   AGC/Library/metadata/d5/d51e7d424e4564f9db26e6b4bdd3e9ac
+#	deleted:    AGC/Library/metadata/d5/d5396a3251db948279e0c7262385dafe
+#	modified:   AGC/Library/metadata/d5/d5d58c10e934a4738aa90eb4e904a166
+#	modified:   AGC/Library/metadata/d6/d6cdc79ec19714fcd980ca3f6ac01a0a
+#	modified:   AGC/Library/metadata/d8/d84268709d11078d11005b9844295342
+#	modified:   AGC/Library/metadata/da/da93ddd6928094e24bb1f3f665f143d3
+#	modified:   AGC/Library/metadata/da/da976b1a4f7ebb949b0f71341e4f1821
+#	modified:   AGC/Library/metadata/da/dab0806454e4d924491b1b84dddaa6b7
+#	modified:   AGC/Library/metadata/db/db6ded423daf6e449ac50a3e1f99a36a
+#	modified:   AGC/Library/metadata/db/dbe1ef02dea967645b838decec3ecb80
+#	modified:   AGC/Library/metadata/dc/dc97187fca1dcaf4e84e8b5f414a64ba
+#	modified:   AGC/Library/metadata/de/de27508c8d7d61e46a2b6fb594f92bc4
+#	deleted:    AGC/Library/metadata/df/df42ef794d3e0441783057cf822a525c
+#	deleted:    AGC/Library/metadata/e0/e02bf8d8fe18948ea8ce546b6a32bee5
+#	modified:   AGC/Library/metadata/e0/e08c295755c0885479ad19f518286ff2
+#	modified:   AGC/Library/metadata/e0/e097e0ca551c28647a5a126e44c35bbc
+#	modified:   AGC/Library/metadata/e0/e0e8367cc866c7d4cae7b97d6ba94e88
+#	modified:   AGC/Library/metadata/e1/e12a930a9b188554699305ca65cb6112
+#	modified:   AGC/Library/metadata/e1/e14df94c1bd5d475bb0fb92fefa1f00d
+#	modified:   AGC/Library/metadata/e1/e1f50dc041f1545edbb228f8daea22a1
+#	modified:   AGC/Library/metadata/e2/e221d0063a868a54ba02f74003a230fe
+#	modified:   AGC/Library/metadata/e2/e228581791012c144900f8d7ccda2491
+#	modified:   AGC/Library/metadata/e3/e340b02bd24d6b44cbaaecb9296ea7b5
+#	modified:   AGC/Library/metadata/e3/e349c3f4b36417b48b65112d7bd0b54e
+#	modified:   AGC/Library/metadata/e3/e3e214f8620f35a4cb4e415a4b8c19cf
+#	modified:   AGC/Library/metadata/e4/e4e4cff51dff43545953848c2258e62c
+#	modified:   AGC/Library/metadata/e5/e58d7769af939f944aa34c67b70e282b
+#	modified:   AGC/Library/metadata/e5/e5bdb6135a74b444d8cebd065dbf9d08
+#	modified:   AGC/Library/metadata/e6/e6116533077ca4ab1b3a7106f19dbb06
+#	modified:   AGC/Library/metadata/e6/e667992b28845df99060a8f876d1d11b
+#	modified:   AGC/Library/metadata/e6/e683224912e790a4aad9fbfda3454396
+#	modified:   AGC/Library/metadata/e7/e79b4ee3b7b31ee499b1532270c7730d
+#	modified:   AGC/Library/metadata/e7/e7a88268a460f384cbef52d988810865
+#	modified:   AGC/Library/metadata/e7/e7d408c28925be148bd9ef32f4f28e44
+#	modified:   AGC/Library/metadata/e8/e83c2f831bb0fd14b92751cdcbe823ec
+#	modified:   AGC/Library/metadata/e9/e913213c3756a4392be576ca36eb9b50
+#	modified:   AGC/Library/metadata/e9/e976c6d3ebc1e4a85aa7186a3192d8c5
+#	modified:   AGC/Library/metadata/eb/ebeafa2f107dd41c2b474fb590ff5080
+#	modified:   AGC/Library/metadata/ee/ee95b051c6c979e4db56b89d399e5ecb
+#	modified:   AGC/Library/metadata/ef/ef830efb1371f9a438b8705513709806
+#	modified:   AGC/Library/metadata/ef/efa98d27390e79d4db284aeb5e60d4b9
+#	modified:   AGC/Library/metadata/f1/f1556f95d8e76dd40aa142f56c3062de
+#	modified:   AGC/Library/metadata/f1/f1d545bd9d2ead7409b2200caa46c8b1
+#	modified:   AGC/Library/metadata/f2/f294454e54694414196e4fbb86e30384
+#	modified:   AGC/Library/metadata/f3/f3d66f34459704a34b36657da3964ea1
+#	modified:   AGC/Library/metadata/f6/f60723ea36fc34476899abc83a5309c9
+#	modified:   AGC/Library/metadata/f7/f777c032ed7f4114f89cf9fcad4f1b4f
+#	modified:   AGC/Library/metadata/f7/f7d5f039a8e7848e889e1546d37dc39e
+#	modified:   AGC/Library/metadata/f8/f89a53f13e64bbbd73bd6eb9f8509a09
+#	modified:   AGC/Library/metadata/fa/fa775a2a028c7464896b1cf6f86a22bc
+#	modified:   AGC/Library/metadata/fa/fa9a139ead11e8d6d00011d98d76c639
+#	modified:   AGC/Library/metadata/fd/fd29452eabdd5eb419797cdb6267cd7a
+#	modified:   AGC/Library/metadata/fd/fdf92b0368102c449a1be7cce70accec
+#	modified:   AGC/Library/metadata/fe/fe48ca40e9be666419e7d1a4bf3d808a
+#	modified:   AGC/Library/metadata/fe/fecdb4c52669ed9479a17806485eff74
+#	modified:   AGC/Library/metadata/fe/fed124f80617b40f0917847d5c87ca73
+#	modified:   AGC/ProjectSettings/EditorBuildSettings.asset
+#	modified:   AGC/ProjectSettings/ProjectSettings.asset
+#	modified:   AGC/ProjectSettings/TagManager.asset
+#	deleted:    AGC/Temp/StagingArea/AndroidManifest-main.xml
+#	deleted:    AGC/Temp/StagingArea/AndroidManifest.xml
+#	deleted:    AGC/Temp/StagingArea/Package_unaligned.apk
+#	deleted:    AGC/Temp/StagingArea/assets.ap_
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Assembly-UnityScript-firstpass.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Assembly-UnityScript-firstpass.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Assembly-UnityScript.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Assembly-UnityScript.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Boo.Lang.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/System.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/System.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll.mdb
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/PlayerConnectionConfigFile
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/Resources/unity_builtin_extra
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/level0
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/level1
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/mainData
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/settings.xml
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets0.assets
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split0
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split1
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split10
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split11
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split12
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split13
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split14
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split15
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split16
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split17
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split18
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split19
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split2
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split20
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split21
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split22
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split23
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split24
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split25
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split26
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split27
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split28
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split29
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split3
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split30
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split31
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split32
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split33
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split34
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split35
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split4
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split5
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split6
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split7
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split8
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets1.assets.split9
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/sharedassets2.assets
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/splash.png
+#	deleted:    AGC/Temp/StagingArea/assets/bin/Data/unity default resources
+#	deleted:    AGC/Temp/StagingArea/bin/classes.dex
+#	deleted:    AGC/Temp/StagingArea/bin/resources.ap_
+#	deleted:    AGC/Temp/StagingArea/gen/com/unity3d/player/R.java
+#	deleted:    AGC/Temp/StagingArea/libs/armeabi-v7a/gdbserver
+#	deleted:    AGC/Temp/StagingArea/libs/armeabi-v7a/libmain.so
+#	deleted:    AGC/Temp/StagingArea/libs/armeabi-v7a/libmono.so
+#	deleted:    AGC/Temp/StagingArea/libs/armeabi-v7a/libunity.so
+#	deleted:    AGC/Temp/StagingArea/res/drawable/app_icon.png
+#	deleted:    AGC/Temp/StagingArea/res/values/strings.xml
+#	deleted:    AGC/Temp/UnityTempFile-0e205829f24254978bb5be70aed4e187
+#	deleted:    AGC/Temp/UnityTempFile-140566968102243ee8e71d218f24bf33
+#	deleted:    AGC/Temp/UnityTempFile-4544014c4902049a7916bdaa70ecfad3
+#	deleted:    AGC/Temp/UnityTempFile-6d0f676f9d6c84494a5a8227fc7b666b
+#	deleted:    AGC/Temp/UnityTempFile-dd0ee1ee4709d49f8a7a8b1a7f70de33
+#	deleted:    AGC/Temp/UnityTempFile-f6cc5f67c63744c0a8659005c2aa6014
+#	modified:   AGC/Temp/__BuildPlayer Backupscene
+#	deleted:    AGC/Temp/tempFile.res
+#	deleted:    AGC/Temp/tempFile.resG
+#	deleted:    AGC/Temp/tempFile.resS
+#	modified:   AGC/acg_web_build/acg_web_build.html
+#	modified:   AGC/acg_web_build/acg_web_build.unity3d
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	6.png
+#	AGC/Assets/New Prefab.prefab
+#	AGC/Library/metadata/00/00f4b3ade97f14e45b6bedce69edd6a8
+#	AGC/Library/metadata/0d/0d54ffcaf7e9f3f4abe89bf1a104e36b
+#	AGC/Library/metadata/0f/0f37a191e2b22b94dab107d0bf6080c3
+#	AGC/Library/metadata/10/107bf15f0b302ef4fab2878ca772c0fb
+#	AGC/Library/metadata/11/1180f5590f8df6a4681e3fb8b8984ba5
+#	AGC/Library/metadata/27/27a148b1c17ac60478d339b1a67e5c66
+#	AGC/Library/metadata/28/28212c4e9b113f244af2600168bc7539
+#	AGC/Library/metadata/59/59b3dd92a7a5b524f99880ddb3e38168
+#	AGC/Library/metadata/65/65be530095471574aa2489c3aeae89b4
+#	AGC/Library/metadata/7e/7ee9bc703df31cc4b8c378e3e2db846a
+#	AGC/Library/metadata/86/86de9c35b5f90584092ff73eb912055e
+#	AGC/Library/metadata/8c/8c717fbebda837b44a07a34d3a68b0d8
+#	AGC/Library/metadata/96/
+#	AGC/Library/metadata/ac/acb3d77df01e5bc4994e869af25d81a0
+#	AGC/Library/metadata/b1/b130290d9fe99c841b302a2063173e30
+#	AGC/Library/metadata/b2/b2ec4c30687607d4ea3af78036501267
+#	AGC/Library/metadata/b5/b55dbeb4ff2ace1409e54cd1dd7b8855
+#	AGC/Library/metadata/c1/c140f19ce57672b4f91049d96135dabf
+#	AGC/Library/metadata/cd/cd0887e233e3a5f47af4c7f001769a5a
+#	AGC/Library/metadata/d4/d457bcc4e8824214793ca587be34b0f9
+#	AGC/Library/metadata/dd/
+#	AGC/Library/metadata/e0/e007e98a0f67aeb4092d19dec2070aeb
+#	AGC/Library/metadata/e0/e015a325cef974145a9ec99f94396365
+#	AGC/Library/metadata/eb/eb1c22162822bdd408125e9ecc583cc2
+#	AGC/Library/metadata/f3/f310aa0c8254a2045b3e97e53bfc4457
+#	AGC/Library/metadata/f5/
+#	AGC/Temp/BuildingWebplayerTemplate/
+#	AGC/Temp/StagingArea/
+#	AGC/Temp/UnityLockfile
+#	AGC/Temp/UnityTempFile-4bfd69f94a970724d81335158aac8c2a
+#	AGC/Temp/UnityTempFile-4e1fa8827dd1e7b4f895e7427ad6bdeb
+#	AGC/Temp/UnityTempFile-5a3993a608e68ce4f9c3821ebb805907
+#	AGC/Temp/UnityTempFile-7b3e2009cfd8f474d8d617622504b6aa
+#	AGC/Temp/UnityTempFile-7c8e57eacb014fa44ad1303a8a6201c4
+#	AGC/Temp/UnityTempFile-d3b0c9008b5c2934dbec73c5aed091bd
+#	AGC/Temp/compressedData
+#	AGC/Temp/uncompressedData
+#	Textures/rs.png
+#	re.max
+#	webplayer/0.5.zip
+#	webplayer/0.5/
+

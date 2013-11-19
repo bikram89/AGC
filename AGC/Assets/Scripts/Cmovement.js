@@ -1,9 +1,12 @@
-﻿#pragma strict
+﻿
 
 function Start () {
 
 }
 
 function Update () {
-transform.Translate(0,0,Movement.moveSpeed);
+//var dif : Vector3 = Vector3 (0, 0.65, 2.1);
+//this.transform.position = Movement.cam + dif;
+//transform.Translate(0,0,Movement.moveSpeed);
+this.transform.position.z =  Movement.cam + 2;
 }
