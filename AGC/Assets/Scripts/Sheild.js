@@ -5,7 +5,7 @@ function Start () {
 }
 
 
-	function OnTriggerEnter (trigger : Collider) 
+/*	function OnTriggerEnter (trigger : Collider) 
 {
     if (trigger.gameObject.CompareTag ("obstacle")) 
          {
@@ -18,9 +18,10 @@ function Start () {
 		   Destroy (trigger.gameObject);
 		 }  
 
-}
+}*/
 
 function Update () {
 transform.Translate(0,Movement.moveSpeed,0);
-rigidbody.position = Movement.shield;
+this.transform.position = Movement.shield;
+//rigidbody.position = Movement.shield;
 }

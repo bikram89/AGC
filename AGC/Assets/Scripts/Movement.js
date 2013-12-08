@@ -4,7 +4,7 @@
 	public static var upTimer : float;
 	var shieldpf : GameObject;
 	public static var shield : Vector3;
-	public static var cam = 24.4;
+	public static var playerz = 24.4;
 	public static var up = 0;
 	public static var score : float;
 	public static var startposition : Vector2;
@@ -68,7 +68,7 @@
 	  if(Input.GetKeyDown(KeyCode.UpArrow))
 	   {
 	   Debug.Log("Up arrow pressed ?");
-	    upTimer = 1;
+	    upTimer = 0.5;
 	    up=1;
 	   }
 	      
@@ -81,7 +81,7 @@
 	   }
 	   
 	   shield = rigidbody.position;
-	   cam = rigidbody.position.z;
+	   playerz = rigidbody.position.z;
 	   
 //	   if(Input.touchCount>0 && Input.GetTouch(0).phase == TouchPhase.Moved)
 //	   {
@@ -180,14 +180,6 @@
      }
     }
     
-    if(moveSpeed <= 0)
-    {
-    Destroy (gameObject);
-    moveSpeed = 0;
-    oldmoveSpeed = 0;
-    Application.LoadLevel("GUIScene");
-    }
-   
 	}
 	
 	

@@ -21,9 +21,8 @@ function Start () {
 	         {
 	           Debug.Log("Hit Obstacle , Slowing down....");
 				Destroy (trigger.gameObject);
-				 health = health - 1;
-//				Movement.moveSpeed = Movement.moveSpeed - 0.05;
-//				Movement.oldmoveSpeed = Movement.moveSpeed;
+				if(s==0){
+				 health = health - 1;}
 	         }      
 			 
 			  if (trigger.gameObject.CompareTag ("obstacle2")) 
@@ -36,11 +35,10 @@ function Start () {
 			 
 			 
 			 
-		if (trigger.gameObject.CompareTag ("pboost")) 
+		if (trigger.gameObject.CompareTag ("health")) 
 	         {
-	           Debug.Log("speed increased");
 				Destroy (trigger.gameObject);
-				Movement.moveSpeed = Movement.moveSpeed + 0.05;
+				health = health + 1;
 			 }    
 			
 		if (trigger.gameObject.CompareTag ("enemy")) 
@@ -68,7 +66,7 @@ function Start () {
 			   Destroy (trigger.gameObject);
 			  
 			   Emovement.eSpeed = 0;
-			   stopTimer = 2;
+			   stopTimer = 1.6;
 			 } 	
 			 
 	    if (trigger.gameObject.CompareTag ("shield")) 
