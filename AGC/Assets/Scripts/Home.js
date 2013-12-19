@@ -18,4 +18,3 @@ if(GUI.Button(Rect(175,350,125,30), "Shop")){
 
 }
 
-Screen.SetResolution (480, 800, true);

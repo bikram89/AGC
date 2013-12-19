@@ -5,14 +5,6 @@ function Start () {
 }
 
 function Update () {
-
- //Debug.Log("x = " +this.transform.position.x);
- 
-if(this.transform.position.x <= -0.66){obs3 = 1;}
-if(this.transform.position.x >= 0.66){obs3 = 2;}
-
-if(obs3 == 1){transform.Translate(0.01,0,0);}
-if(obs3 == 2){transform.Translate(-0.01,0,0);}
-
-
+transform.position = Vector3(-(Mathf.PingPong(Time.time/1.7, 0.66+0.66)-0.66), transform.position.y, transform.position.z);
+//transform.position = Vector3(-(Mathf.PingPong(Time.time/1.7, 1.4)-0.66), transform.position.y, transform.position.z);
 }

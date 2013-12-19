@@ -15,11 +15,42 @@
 	// Use this for initialization
 	function Start () 
 	{
+	Debug.Log( Application.loadedLevelName);
+	if(Application.loadedLevelName == "Level1"){Stats.level = 1;}
+	if(Application.loadedLevelName == "Level2"){Stats.level = 2;}
+	if(Application.loadedLevelName == "Level3"){Stats.level = 3;}
+	if(Application.loadedLevelName == "Level4"){Stats.level = 4;}
+	if(Application.loadedLevelName == "Level5"){Stats.level = 5;}
+	if(Application.loadedLevelName == "Level6"){Stats.level = 6;}
+	if(Application.loadedLevelName == "Level7"){Stats.level = 7;}
+	if(Application.loadedLevelName == "Level8"){Stats.level = 8;}
+	if(Application.loadedLevelName == "Level9"){Stats.level = 9;}
+	if(Application.loadedLevelName == "Level10"){Stats.level = 10;}
+	if(Application.loadedLevelName == "Level11"){Stats.level = 11;}
+	if(Application.loadedLevelName == "Level12"){Stats.level = 12;}
+	if(Application.loadedLevelName == "Level13"){Stats.level = 13;}
+	if(Application.loadedLevelName == "Level14"){Stats.level = 14;}
+	if(Application.loadedLevelName == "Level15"){Stats.level = 15;}
+	if(Application.loadedLevelName == "Level16"){Stats.level = 16;}
+    if(Application.loadedLevelName == "Level17"){Stats.level = 17;}
+	if(Application.loadedLevelName == "Level18"){Stats.level = 18;}
+	if(Application.loadedLevelName == "Level19"){Stats.level = 19;}
+	if(Application.loadedLevelName == "Level20"){Stats.level = 20;}
+	if(Application.loadedLevelName == "Level21"){Stats.level = 21;}
+	if(Application.loadedLevelName == "Level22"){Stats.level = 22;}
+	if(Application.loadedLevelName == "Level23"){Stats.level = 23;}
+	if(Application.loadedLevelName == "Level24"){Stats.level = 24;}
+	
 	}
 
 	function Update () 
 	{
-              score = score + 1;
+	
+	 if(gamescreengui.p == 1){
+    movespeed = 0;}
+    
+    if(gamescreengui.p == 0){
+              score = score + 0.1;
               
 	          if(upTimer > 0){
 	           upTimer -= Time.deltaTime;
@@ -67,7 +98,7 @@
 	
 	  if(Input.GetKeyDown(KeyCode.UpArrow))
 	   {
-	   Debug.Log("Up arrow pressed ?");
+	  // Debug.Log("Up arrow pressed ?");
 	    upTimer = 0.5;
 	    up=1;
 	   }
@@ -179,6 +210,8 @@
       }
      }
     }
+    
+   }
     
 	}
 	
